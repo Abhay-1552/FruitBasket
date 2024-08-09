@@ -33,7 +33,3 @@ Fruit Basket is a simple and fun web-based game where players race against time 
 Contributions are welcome! If you have suggestions or find any issues, feel free to open an issue or submit a pull request.
 
 Enjoy the game and see how many clicks you can get before time runs out! 🎉
-
----
-
-You can customize this template further based on your preferences and the specifics of your project.
