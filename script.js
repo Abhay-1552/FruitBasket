@@ -58,3 +58,31 @@ document.querySelector('.close').addEventListener('click', function () {
     document.getElementById('click-count').textContent = clickCount;
     document.querySelector('.timer').textContent = '00:30';
 });
+
+// Modal
+
+// Get the modal
+var aboutModal = document.getElementById("about-modal");
+
+// Get the link that opens the modal
+var aboutLink = document.querySelector(".nav-link[href='#about']");
+
+// Get the <span> element that closes the modal
+var closeAbout = document.getElementById("close-about");
+
+// When the user clicks the link, open the modal 
+aboutLink.addEventListener("click", function () {
+    aboutModal.style.display = "flex";
+});
+
+// When the user clicks on <span> (x), close the modal
+closeAbout.addEventListener("click", function () {
+    aboutModal.style.display = "none";
+});
+
+// When the user clicks anywhere outside of the modal, close it
+window.addEventListener("click", function (event) {
+    if (event.target == aboutModal) {
+        aboutModal.style.display = "none";
+    }
+});
