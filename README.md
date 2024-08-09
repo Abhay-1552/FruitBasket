@@ -19,7 +19,7 @@ Fruit Basket is a simple and fun web-based game where players race against time 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fruit-basket.git
+   git clone https://github.com/Abhay-1552/FruitBasket
    ```
 2. Open `index.html` in your web browser to start playing.
 
